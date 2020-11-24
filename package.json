@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "웹소켓",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "socket.io": "^3.0.3"
   }
 }
