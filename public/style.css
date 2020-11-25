@@ -25,13 +25,56 @@ form button {
   border: none;
   padding: 10px;
 }
-.messages {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+
+.page {
+  height: 100%;
+  position: absolute;
+  width: 100%;
 }
-.message li {
-  padding: 5px 10px;
+
+.login.page {
+  background-color: #000;
+}
+
+.login.page .form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.login.page .form .usernameInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  padding-bottom: 15px;
+}
+
+.login.page .title {
+  font-size: 200%;
+}
+
+.login.page .usernameInput {
+  font-size: 200%;
+  letter-spacing: 3px;
+}
+
+.login.page .title,
+.login.page .usernameInput {
+  color: #fff;
+  font-weight: 100;
+}
+
+.messages {
+  font-size: 150%;
+}
+
+.inputMessage {
+  font-size: 100%;
 }
 
 .log {
